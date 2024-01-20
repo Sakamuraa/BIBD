@@ -12,7 +12,7 @@ module.exports = {
     TEST_GUILD_ID: "1103945195793432617", // Guild ID where the interactions should be registered. [** Test you commands here first **]
   },
   EMBED_COLORS: {
-    BOT_EMBED: "#283738",
+    BOT_EMBED: "#46fae2",
     TRANSPARENT: "#36393F",
     SUCCESS: "#00A56A",
     ERROR: "#D61A3C",
@@ -36,7 +36,7 @@ module.exports = {
   },
 
   DASHBOARD: {
-    enabled: true, // enable or disable dashboard
+    enabled: false, // enable or disable dashboard
     baseURL: "http://localhost:8080", // base url
     failureURL: "http://localhost:8080", // failure redirect url
     port: "8080", // port to run the bot on
@@ -62,8 +62,8 @@ module.exports = {
         host: "lavalink1.albinhakanson.se",
         port: 1141,
         password: "albinhakanson.se",
-		id: "Local Node",
-		secure: false,
+        id: "Local Node",
+        secure: false,
       },
     ],
   },
@@ -71,8 +71,8 @@ module.exports = {
   GIVEAWAYS: {
     ENABLED: true,
     REACTION: "🎁",
-    START_EMBED: "#FF468A",
-    END_EMBED: "#FF468A",
+    START_EMBED: "#46fae2",
+    END_EMBED: "#fa4649",
   },
 
   IMAGE: {
@@ -106,7 +106,7 @@ module.exports = {
     ENABLED: true, // Whether or not the bot should update its status
     STATUS: "online", // The bot's status [online, idle, dnd, invisible]
     TYPE: "WATCHING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
-    MESSAGE: "{members} members in {servers} servers", // Your bot status message
+    MESSAGE: "Cyber Residents | /help", // Your bot status message
   },
 
   STATS: {
