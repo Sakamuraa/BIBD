@@ -3,13 +3,13 @@ module.exports = {
   SUPPORT_SERVER: "https://discord.gg/j8gw8Ur57W", // Your bot support server
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
-    DEFAULT_PREFIX: "=", // Default prefix for the bot
+    DEFAULT_PREFIX: "!", // Default prefix for the bot
   },
   INTERACTIONS: {
     SLASH: true, // Should the interactions be enabled
     CONTEXT: true, // Should contexts be enabled
     GLOBAL: true, // Should the interactions be registered globally
-    TEST_GUILD_ID: "", // Guild ID where the interactions should be registered. [** Test you commands here first **]
+    TEST_GUILD_ID: "xxxxxxxxxxx", // Guild ID where the interactions should be registered. [** Test you commands here first **]
   },
   EMBED_COLORS: {
     BOT_EMBED: "#46fae2",
@@ -59,9 +59,9 @@ module.exports = {
     // Refer to https://github.com/freyacodes/Lavalink to host your own lavalink server
     LAVALINK_NODES: [
       {
-        host: "lavalink1.albinhakanson.se",
-        port: 1141,
-        password: "albinhakanson.se",
+        host: "localhost",
+        port: 2333,
+        password: "youshallnotpass",
         id: "Local Node",
         secure: false,
       },
@@ -71,13 +71,13 @@ module.exports = {
   GIVEAWAYS: {
     ENABLED: true,
     REACTION: "🎁",
-    START_EMBED: "#46fae2",
-    END_EMBED: "#fa4649",
+    START_EMBED: "#FF468A",
+    END_EMBED: "#FF468A",
   },
 
   IMAGE: {
-    ENABLED: false,
-    BASE_API: "https://strangeapi.fun/api",
+    ENABLED: true,
+    BASE_API: "https://strangeapi.hostz.me/api",
   },
 
   INVITE: {
